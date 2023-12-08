@@ -287,11 +287,27 @@ a, a.link {
 .Header .head-tow .all-menu .social-ico {
   margin-right: 0px;
 }
+@media (max-width: 669px) {
+  .Header .head-tow .all-menu .social-ico {
+    width: 192px;
+    text-align: left;
+  }
+}
 .Header .head-tow .all-menu .social-ico a {
   margin-left: 10px;
 }
+@media (max-width: 669px) {
+  .Header .head-tow .all-menu .social-ico a {
+    margin-left: 8px;
+  }
+}
 .Header .head-tow .all-menu .social-ico a img {
   max-width: 30px;
+}
+@media (max-width: 669px) {
+  .Header .head-tow .all-menu .social-ico a img {
+    max-width: 25px;
+  }
 }
 .Header .head-tow .all-menu .lango .dropdown button {
   background-color: #1660b4;
